@@ -25,9 +25,9 @@ while True:
 
 		arrayI = 0
 		openText = []
-		for __ in range(i):
+		for __ in range(0, i):
 			openArray = []
-			for ___ in range(i-1):
+			for ___ in range(0, i):
 				try:
 					openArray.append(text[arrayI])
 				except:
